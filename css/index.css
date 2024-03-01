@@ -6,8 +6,8 @@ body{
     margin: 0;
 }
 
-h1{
+.huh{
     position: absolute;
-    align-item: center;
+    align-item: left;
     font-size: 24;
 }
