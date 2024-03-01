@@ -8,15 +8,18 @@ body{
 
     height: 100vh;
     display: flex;
+    background-color: Aquamarine;
     align-items: center;
     justify-content: center;
     margin: 0;
     font-family: "Anta", sans-serif;
-    
+
 }
 
 .btn{
     height: 10vh;
+    margin: 0.5px;
     width: 13vw;
+    background-color: seagreen;
 
 }
