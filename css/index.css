@@ -7,7 +7,6 @@ body{
 }
 
 .huh{
-    position: absolute;
-    align-item: left;
+    align-item: center;
     font-size: 24;
 }
