@@ -7,6 +7,7 @@ body{
 }
 
 .title h1{
-    align-item: center;
+    position: absolute;
+    align-item: right;
     font-size: 24;
 }
