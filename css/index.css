@@ -6,8 +6,8 @@ body{
     margin: 0;
 }
 
-.title h1{
+h1{
     position: absolute;
-    align-item: right;
+    align-item: center;
     font-size: 24;
 }
