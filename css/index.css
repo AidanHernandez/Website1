@@ -28,11 +28,11 @@ body{
     opacity: 1;
 }
 
-a .link{
+.links a{
     color: red;
     position: absolute;
-    top:20vh;
-    left: 40vw;
+    top:27vh;
+    left: 5vw;
     margin: 0;
     opacity: 1;
 }
