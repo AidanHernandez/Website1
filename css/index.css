@@ -28,7 +28,7 @@ body{
     opacity: 1;
 }
 
-a{
+a .link{
     color: red;
     position: absolute;
     top:20vh;
