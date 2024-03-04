@@ -29,10 +29,40 @@ body{
 }
 
 .links a{
+    align:center;
     color: red;
+    text-decoration: none;
     position: absolute;
     top:27vh;
     left: 5vw;
+    margin: 0;
+    opacity: 1;
+}
+
+.links2 a{
+    color: red;
+    text-decoration: none;
+    position: absolute;
+    top:27vh;
+    left: 20vw;
+    margin: 0;
+    opacity: 1;
+}
+.links3 a{
+    color: red;
+    text-decoration: none;
+    position: absolute;
+    top:27vh;
+    left: 35vw;
+    margin: 0;
+    opacity: 1;
+}
+.links4 a{
+    color: red;
+    text-decoration: none;
+    position: absolute;
+    top:27vh;
+    left: 85vw;
     margin: 0;
     opacity: 1;
 }
