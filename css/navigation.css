@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&display=swap');
 
 *{
     box-sizing: border-box;
@@ -8,4 +8,15 @@
 
 body{
     color: #222;
+    padding-bottom: 50px;
+    font-family: "Anta", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero{
+    background-image: url()
 }
