@@ -18,5 +18,17 @@ body{
 }
 
 .hero{
-    background-image: url()
+    background-image: url(images/openparts.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:bottom center;
+    height:100vh;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+    margine-bottom:20px;
+    
 }

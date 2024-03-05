@@ -13,7 +13,7 @@ body{
 .huh h1{
     color: red;
     position: absolute;
-    left: 40vw;
+    left: 40px;
     margin: 0;
     opacity: 1;
 }
@@ -21,8 +21,8 @@ body{
 .motto h2{
     color: red;
     position: absolute;
-    top:30vh;
-    left: 46vw;
+    top:30px;
+    left: 46px;
     margin: 0;
     opacity: 1;
 }
@@ -32,8 +32,8 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:37vh;
-    left: 10vw;
+    top:37px;
+    left: 10px;
     margin: 0;
     opacity: 1;
 }
@@ -42,8 +42,8 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:37vh;
-    left: 30vw;
+    top:37px;
+    left: 30px;
     margin: 0;
     opacity: 1;
 }
@@ -51,8 +51,8 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:37vh;
-    left: 48vw;
+    top:37px;
+    left: 48px;
     margin: 0;
     opacity: 1;
 }
@@ -60,16 +60,22 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:37vh;
-    left: 70vw;
+    top:37px;
+    left: 70px;
     margin: 0;
     opacity: 1;
 }
 
 .founder{
     position: absolute;
-    bottom: 20vh;
-    left: 10vw;
-    width:80px;
-    height:80px;
+    bottom: 20px;
+    left: 10px;
+    width:100px;
+    height:100px;
+}
+
+.founder-text{
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
 }
