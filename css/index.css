@@ -58,7 +58,7 @@ body{
 .links3 a{
     display:flex;
     top:37vh;
-    
+    left: 30px;
     color: red;
     text-decoration: none;
     margin: 0;
