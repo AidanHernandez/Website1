@@ -8,7 +8,6 @@
 
 body{
     color: #222;
-    padding-bottom: 50px;
     font-family: "Anta", sans-serif;
 }
 
@@ -19,7 +18,8 @@ body{
 
 .huh h1{
     color: red;
-    position: absolute;
+    display:flex;
+    justify-content:center;
     left: 40px;
     margin: 0;
     opacity: 1;
@@ -57,9 +57,8 @@ body{
 .links3 a{
     color: red;
     text-decoration: none;
-    position: absolute;
-    top:37px;
-    left: 48px;
+    display:flex;
+    justify-content:center;
     margin: 0;
     opacity: 1;
 }
