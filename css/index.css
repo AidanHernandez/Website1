@@ -22,7 +22,7 @@ body{
 .motto h2{
     color: red;
     position: absolute;
-    top:20vh;
+    top:30vh;
     left: 46vw;
     margin: 0;
     opacity: 1;
@@ -33,7 +33,7 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:27vh;
+    top:37vh;
     left: 10vw;
     margin: 0;
     opacity: 1;
@@ -43,7 +43,7 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:27vh;
+    top:37vh;
     left: 30vw;
     margin: 0;
     opacity: 1;
@@ -52,7 +52,7 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:27vh;
+    top:37vh;
     left: 48vw;
     margin: 0;
     opacity: 1;
@@ -61,7 +61,7 @@ body{
     color: red;
     text-decoration: none;
     position: absolute;
-    top:27vh;
+    top:37vh;
     left: 70vw;
     margin: 0;
     opacity: 1;
