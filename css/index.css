@@ -12,6 +12,12 @@ body{
 }
 
 .doctor{
+    height:100vh;
+    display:flex;
     justify-content:center;
     align-items:center;
+    text-align:center;
+    position:relative;
+    margine-bottom:20px;
+    z-index: -2;
 }
