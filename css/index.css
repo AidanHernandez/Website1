@@ -56,13 +56,10 @@ body{
     opacity: 1;
 }
 .links3 a{
-    display:flex;
-    top:37vh;
-    left: 30px;
+    position: absolute;
+    left: 300px;
     color: red;
     text-decoration: none;
-    margin: 0;
-    opacity: 1;
 }
 .links4 a{
     color: red;
