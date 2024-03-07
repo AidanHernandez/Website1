@@ -1,87 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
 body{
-    color: #222;
+    padding-bottom: 50px;
     font-family: "Anta", sans-serif;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.huh h1{
-    color: red;
-    display:flex;
-    justify-content:center;
-    left: 40px;
-    margin: 0;
-    opacity: 1;
-}
-
-.motto h2{
-    color: red;
-    display:flex;
-    justify-content:center;
-    top:30px;
-    left: 46px;
-    margin: 0;
-    opacity: 1;
-}
-
-.links a{
-    align:center;
-    color: red;
-    text-decoration: none;
-    position: absolute;
-    top:37px;
-    left: 10px;
-    margin: 0;
-    opacity: 1;
-}
-
-.links2 a{
-    color: red;
-    text-decoration: none;
-    position: absolute;
-    top:37px;
-    left: 30px;
-    margin: 0;
-    opacity: 1;
-}
-.links3 a{
-    display: flex;
-    position: absolute;
-    
-    color: red;
-    text-decoration: none;
-}
-.links4 a{
-    color: red;
-    text-decoration: none;
-    position: absolute;
-    top:37px;
-
-    margin: 0;
-    opacity: 1;
-}
-
-.founder{
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-    width:100px;
-    height:100px;
-}
-
-.founder-text{
-    position: absolute;
-    bottom: 20px;
-    left: 180px;
+h1{
+    text-align: center;
 }
