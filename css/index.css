@@ -56,8 +56,9 @@ body{
     opacity: 1;
 }
 .links3 a{
+    display: flex;
     position: absolute;
-    left: 300px;
+    
     color: red;
     text-decoration: none;
 }
