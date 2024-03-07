@@ -10,7 +10,12 @@ body{
     padding-bottom: 50px;
     font-family: "Anta", sans-serif;
 }
-
+.image1 {
+    align-items:center;
+    text-align:center;
+    position:relative;
+    z-index:2;
+  }
 .doctor{
     background-image: url(images/doctor.jpg);
     background-repeat:no-repeat;
@@ -38,9 +43,4 @@ body{
     z-index:-1;
 }
 
-.image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    border: 1px red solid;
-  }
+
