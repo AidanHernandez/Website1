@@ -1,9 +1,17 @@
 loadText = document.querySelector('.apple')
+page=document.getElementById('page')
+
+
 
 
 load = 0
 
-int = setInterval(blurring, 35)
+page.addEventListener('click', () =>{
+    int = setInterval(blurring, 35)
+})
+
+
+
 
 function blurring() {
     load++
