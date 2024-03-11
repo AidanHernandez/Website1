@@ -18,7 +18,7 @@ body
 
 nav
 {
-    background-color: var(--primary-color);
+    background-color: rgb(80,124,163);
     position: fixed;
     top: 0;
     left: 0;
@@ -75,7 +75,7 @@ nav ul li:nth-of-type(1)
 
 header
 {
-    background-color: var(--primary-color);
+    background-color: rgb(80,124,163);
     color: white;
     font-size: 130%;
     position: relative;
@@ -131,5 +131,6 @@ button, input[type='submit']
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #8e98a3;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
 }
