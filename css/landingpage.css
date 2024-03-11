@@ -13,12 +13,12 @@
 body
 {
     margin: 0;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Anta", sans-serif;
 }
 
 nav
 {
-    background-color: rgb(80,124,163);
+    background-color: #304529;
     position: fixed;
     top: 0;
     left: 0;
@@ -75,7 +75,7 @@ nav ul li:nth-of-type(1)
 
 header
 {
-    background-color: rgb(80,124,163);
+    background-color: #304529;
     color: white;
     font-size: 130%;
     position: relative;
@@ -141,4 +141,8 @@ button, input[type='submit']
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width:400px;
+    max-width:100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
