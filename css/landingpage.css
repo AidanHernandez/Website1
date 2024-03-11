@@ -137,7 +137,9 @@ button, input[type='submit']
     background-color: rgba(0,0,0,0.6);
     display: none;
 }
-
+.modal-container.show-modal{
+    display:block;
+}
 .modal{
     background-color:white;
     position:absolute;
