@@ -152,3 +152,34 @@ button, input[type='submit']
     color:white;
     padding: 15px;
 }
+.modal-header h3{
+    margin: 0;
+    border-bottom: 1px solid #304529;
+    text-align:center;
+}
+.modal-content{
+    padding:20px;
+}
+.modal-form div{
+    margin: 15px 0;
+}
+
+.modal-form label{
+    display:block;
+    margin-bottom: 5px;
+}
+
+.modal-form .form-input{
+    padding: 8px;
+    width:100%;
+}
+
+.close-btn{
+    position:absolute;
+    top:0;
+    right:0;
+    border:none;
+    background: transparent;
+    font-size:25px;
+
+}
