@@ -22,4 +22,112 @@ nav{
     left:0;
     width:200px;
     height:100%;
+    border-right: 2px solid rgba(200,200,200,01);
+    z-index: 100;
+    color: white;
+    transform: translateX(-100%)
+}
+
+nav .logo
+{
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav .logo img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li
+{
+    padding: 20px;
+    border-bottom: 2px solid rgba(200,200,200,0.1);
+}
+
+nav ul li:nth-of-type(1)
+{
+    border-top: 2px solid rgba(200,200,200,0.1);
+}
+
+header
+{
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 130%;
+    position: relative;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+header h1
+{
+    margin: 0;
+}
+
+header p
+{
+    margin: 30px 0;
+}
+
+button, input[type='submit']
+{
+    background-color: grey;
+    border-radius: 5px;
+    color: #122b4a;
+    padding: 8px 12px;
+    cursor: grab;
+}
+
+.toggle
+{
+    background-color: #8e98a3;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.cta-btn
+{
+    padding: 12px 30px;
+    font-size: 20px;
+}
+
+.container
+{
+    padding: 15px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+}
+
+.modal-container
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #8e98a3;
 }
