@@ -1,12 +1,12 @@
 loadText = document.querySelector('.apple')
-next-button=document.getElementById('next-button')
+button=document.getElementById('next-button')
 
 
 
 
 load = 0
 next = 0
-next-button.addEventListener('click', () =>{
+button.addEventListener('click', () =>{
     next = 1;
 })
 
