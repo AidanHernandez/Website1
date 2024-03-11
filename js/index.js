@@ -5,14 +5,15 @@ next-button=document.getElementById('next-button')
 
 
 load = 0
-
-page.addEventListener('click', () =>{
-    int = setInterval(blurring, 35)
+next = 0
+next-button.addEventListener('click', () =>{
+    next = 1;
 })
 
-
-
-
+if (next = 1)
+{
+int = setInterval(blurring, 35)
+}
 function blurring() {
     load++
     if (load > 99){
