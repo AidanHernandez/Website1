@@ -14,10 +14,10 @@ button.addEventListener('click', () =>{
 
 function blurring() {
     load++
-    if (sizex < 65){
+    if (sizex < 60){
         sizex++
     }
-    if (sizey < 40){
+    if (sizey < 50){
         sizey++
     }
 
