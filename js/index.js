@@ -50,12 +50,13 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        overlay.style.opacity= 0
+
         red.style.opacity= 0
         loadText.style.opacity= 0
         clearInterval(int)
 
     }
+    overlay.style.opacity= 1-smaller/100
     red.style.opacity= 1-smaller/100
     loadText.style.opacity = 1 - smaller/100
 }
