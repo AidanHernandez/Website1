@@ -49,7 +49,7 @@ body{
     margin:0;
     transform: 0;
     animation-name:rotate;
-    --animation-duration:var(--modal-duration);
+    animation: rotate 0.5s infinite linear;
 }
 
 @keyframes rotate {
