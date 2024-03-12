@@ -45,6 +45,8 @@ body{
     left:35vw;
     top:8vh;
     opacity:0;
+    width: 30vw;
+    height:70vh;
 }
 .container::before{
     content: '';
