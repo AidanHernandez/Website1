@@ -2,6 +2,7 @@ loadText = document.querySelector('.apple')
 button=document.querySelector('.btn')
 title_text = document.querySelector('.container h1')
 back = document.querySelector('.docimg')
+body = document.querySelector('body')
 
 
 
@@ -41,7 +42,7 @@ function blurring() {
     loadText.style.width = (40 + sizex) + "vw";
     loadText.style.height = (70 + sizey) + "vh";
 
-    
+
 
 }
 
@@ -49,6 +50,7 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
+        body.style.background-color= "White";
         clearInterval(int)
 
     }
