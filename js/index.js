@@ -1,5 +1,5 @@
 loadText = document.querySelector('.apple')
-button=document.getElementById('.next-button')
+button=document.querySelector('.btn')
 
 
 
@@ -7,12 +7,13 @@ button=document.getElementById('.next-button')
 load = 0
 next = 0
 button.addEventListener('click', () =>{
+    int = setInterval(blurring, 35)
     next = 1;
 })
 
 if (next = 1)
 {
-int = setInterval(blurring, 35)
+
 }
 function blurring() {
     load++
