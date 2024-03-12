@@ -16,6 +16,8 @@ function blurring() {
     load++
     if (sizex < 60){
         sizex++
+
+
     }
     if (sizey < 50){
         sizey++
@@ -23,7 +25,16 @@ function blurring() {
 
     if (load > 99){
         clearInterval(int)
+
     }
+    
+    loadText.style.transform = "rotate(90deg)";
+    loadText.style.transform = "rotate(180deg)";
+    loadText.style.transform = "rotate(270deg)";
+    loadText.style.transform = "rotate(0deg)";
+
+
+
     loadText.style.opacity = 0 + load/100
     loadText.style.width = (40 + sizex) + "vw";
     loadText.style.height = (70 + sizey) + "vh";
