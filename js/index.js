@@ -2,7 +2,7 @@ loadText = document.querySelector('.apple')
 button=document.querySelector('.btn')
 title_text = document.querySelector('.container h1')
 back = document.querySelector('.docimg')
-body = document.querySelector('body')
+red = document.querySelector('.red')
 
 
 
@@ -34,7 +34,7 @@ function blurring() {
 
     }
 
-
+    red.style.opacity= 0 + load/100
     back.style.opacity= 1-load/100
     title_text.style.opacity= 1-load/100
     button.style.opacity= 1- load/100
