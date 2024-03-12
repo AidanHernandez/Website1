@@ -19,8 +19,9 @@ function blurring() {
     }
 
     loadText.style.opacity = 0 + load/100
-    loadText.style.width = 0 + size
-    loadText.style.height = 0 + size
+    loadText.style.width = (0 + size) + "vw";
+    loadText.style.height = (0 + size) + "vh";
 
 
 }
+
