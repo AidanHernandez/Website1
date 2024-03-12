@@ -12,9 +12,15 @@ body{
     padding-bottom: 50px;
     font-family: "Anta", sans-serif;
     overflow: hidden;
-    background-color:red;
+    background-color:white;
 }
-
+.red{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    opacity:0;
+}
 
 .docimg{
 
@@ -24,6 +30,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
+    opacity: 1;
     position:absolute;
     margine-bottom:20px;
     z-index: -2;
