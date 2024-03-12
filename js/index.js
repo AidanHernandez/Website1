@@ -50,7 +50,7 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        body.style.background-color= "White";
+        document.body.style.backgroundColor = "white";
         clearInterval(int)
 
     }
