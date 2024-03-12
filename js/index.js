@@ -5,7 +5,8 @@ button=document.querySelector('.btn')
 
 
 load = 0
-size = 0
+sizex = 0
+sizey = 0
 button.addEventListener('click', () =>{
     int = setInterval(blurring, 35)
 
@@ -13,14 +14,19 @@ button.addEventListener('click', () =>{
 
 function blurring() {
     load++
-    size++
+    if (sizex < 65){
+        sizex++
+    }
+    if (sizey < 40){
+        sizey++
+    }
+
     if (load > 99){
         clearInterval(int)
     }
-
     loadText.style.opacity = 0 + load/100
-    loadText.style.width = (0 + size) + "vw";
-    loadText.style.height = (0 + size) + "vh";
+    loadText.style.width = (40 + sizex) + "vw";
+    loadText.style.height = (70 + sizey) + "vh";
 
 
 }
