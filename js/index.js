@@ -53,6 +53,7 @@ function smol() {
         clearInterval(int)
 
     }
+    red.style.opacity= 1-smaller/100
     loadText.style.opacity = 1 - smaller/100
 }
 
