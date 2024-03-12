@@ -29,6 +29,7 @@ function blurring() {
 
     if (load > 99){
         clearInterval(int)
+        int = setInterval(smol, 35)
 
     }
 
@@ -40,9 +41,7 @@ function blurring() {
     loadText.style.width = (40 + sizex) + "vw";
     loadText.style.height = (70 + sizey) + "vh";
 
-    if (sizex > 59){
-        int = setInterval(smol, 35)
-    }
+    
 
 }
 
