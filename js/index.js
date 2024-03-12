@@ -32,7 +32,7 @@ function blurring() {
 
 
 
-
+    button.style.opacity= 1- load/100
     loadText.style.opacity = 0 + load/100
     loadText.style.width = (40 + sizex) + "vw";
     loadText.style.height = (70 + sizey) + "vh";
