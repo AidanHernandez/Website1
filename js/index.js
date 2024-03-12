@@ -50,7 +50,8 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        document.body.style.backgroundImage= "url("back-images/white.png")";
+        red.style.opacity= 0
+        loadText.style.opacity= 0
         clearInterval(int)
 
     }
