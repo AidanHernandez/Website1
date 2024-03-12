@@ -3,7 +3,7 @@ button=document.querySelector('.btn')
 title_text = document.querySelector('.container h1')
 back = document.querySelector('.docimg')
 red = document.querySelector('.red')
-
+overlay = document.querySelector('.container::before')
 
 
 
