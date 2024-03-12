@@ -43,13 +43,12 @@ body{
     position:absolute;
     left:0;
     top:0;
-    opacity:1;
+    opacity:0;
     width: 40vw;
     height:70vh;
     margin:0;
     transform: 0;
-    animation-name:rotate;
-    animation: rotate 0.5s infinite linear;
+    animation: rotate 1s infinite linear;
 }
 
 @keyframes rotate {
@@ -61,12 +60,7 @@ body{
     }
   }
 
-  img.star {
-      animation-name:            rotate;
-      animation-duration:        0.5s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-  }
+
 .container::before{
     content: '';
     position: absolute;

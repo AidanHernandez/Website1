@@ -14,6 +14,7 @@ button.addEventListener('click', () =>{
 
 function blurring() {
     load++
+    load++
     if (sizex < 60){
         sizex++
 
@@ -27,11 +28,8 @@ function blurring() {
         clearInterval(int)
 
     }
-    
-    loadText.style.transform = "rotate(90deg)";
-    loadText.style.transform = "rotate(180deg)";
-    loadText.style.transform = "rotate(270deg)";
-    loadText.style.transform = "rotate(0deg)";
+
+
 
 
 
