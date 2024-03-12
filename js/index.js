@@ -1,5 +1,5 @@
 loadText = document.querySelector('.apple')
-button=document.getElementById('next-button')
+button=document.getElementById('.next-button')
 
 
 
