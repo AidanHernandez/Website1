@@ -50,7 +50,7 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        document.body.style.backgroundImage= "url("back-images-in-js/white.png")";
+        document.body.style.backgroundImage= "url("back-images/white.png")";
         clearInterval(int)
 
     }
