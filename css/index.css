@@ -103,6 +103,7 @@ a{
 }
 
 .ribbon{
+    cursor: clickable;
     margin:auto; /* Required */
     position:absolute; /* Required */
     bottom:0; /* Aligns at the bottom */
