@@ -96,11 +96,9 @@ a{
 }
 
 .ribbon{
+    display: flex;
     position: absolute;
-    display:flex;
+    left: 
     transform: rotate(180deg);
-    justify-content:center;
-    align-items:center;
-    bottom:0;
-    
+    bottom: 0;
 }
