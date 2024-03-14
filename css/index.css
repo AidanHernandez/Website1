@@ -96,9 +96,15 @@ a{
 }
 
 .ribbon{
-    display: flex;
+    height:100vh;
+    display:flex;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
     position: absolute;
-    left: 
+    margin-bottom:20px;
+    z-index: -10;
     transform: rotate(180deg);
-    bottom: 0;
 }
