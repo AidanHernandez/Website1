@@ -4,11 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    cursor: url('images/applecursor.png'), auto;
+
 }
 
 body{
-
+    cursor: url('images/applecursor.png'), auto;
     height:100vh;
     width:100vw;
     padding-bottom: 50px;
