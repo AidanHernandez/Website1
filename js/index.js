@@ -51,7 +51,7 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        links.style.opacity = 1;
+
         body.style.overflow = "visible";
         loadText.style.width = (0) + "vw";
         loadText.style.height = (0) + "vh";
@@ -62,6 +62,7 @@ function smol() {
         clearInterval(int)
 
     }
+    links.style.opacity = 1;
     overlay.style.opacity= 1-smaller/100
     red.style.opacity= 1-smaller/100
     loadText.style.opacity = 1 - smaller/100

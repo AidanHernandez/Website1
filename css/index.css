@@ -86,6 +86,12 @@ body{
 }
 
 a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    top:45vh;
+    position:relative;
     color: black;
     opacity:0;
 }
