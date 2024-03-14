@@ -94,3 +94,13 @@ a{
     position: absolute;
     right:0;
 }
+
+.ribbon{
+    position: absolute;
+    display:flex;
+    transform: rotate(180deg);
+    justify-content:center;
+    align-items:center;
+    bottom:0;
+    
+}
