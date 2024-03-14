@@ -54,7 +54,7 @@ function smol() {
         body.style.overflow = "visible";
         red.style.display= none
         loadText.style.display= none
-        appl.parentNode.removeChild(appl);
+        apple.parentNode.removeChild(apple);
         clearInterval(int)
 
     }
