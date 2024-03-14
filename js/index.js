@@ -53,6 +53,7 @@ function smol() {
         body.style.overflow = "visible";
         red.style.display= none
         loadText.style.display= none
+        loadText.parentNode.removeChild(loadText);
         clearInterval(int)
 
     }
