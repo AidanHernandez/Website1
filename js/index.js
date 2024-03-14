@@ -54,6 +54,10 @@ function smol() {
         body.style.overflow = "visible";
         loadText.style.width = (0) + "vw";
         loadText.style.height = (0) + "vh";
+        red.style.width = (0) + "vw";
+        red.style.height = (0) + "vh";
+        back.style.width = (0) + "vw";
+        back.style.height = (0) + "vh";
         clearInterval(int)
 
     }
