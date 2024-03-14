@@ -74,6 +74,7 @@ body{
 
 
 .container::before{
+    cursor: url('images/applecursor.png'), auto;
     content: '';
     position: absolute;
     top: 0;
@@ -103,7 +104,7 @@ a{
 }
 
 .ribbon{
-    cursor: clickable;
+    cursor: pointer;
     margin:auto; /* Required */
     position:absolute; /* Required */
     bottom:0; /* Aligns at the bottom */
