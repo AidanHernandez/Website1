@@ -109,4 +109,5 @@ a{
     max-height:100%; /* images bigger than 175 px  */
     max-width:100%;  /* will be shrinked to size */
     transform: rotate(180deg);
+    z-index: -10;
 }
