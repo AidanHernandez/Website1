@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Micro+5&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -110,4 +110,14 @@ a{
     max-width:100%;  /* will be shrinked to size */
     transform: rotate(180deg);
     z-index: -10;
+}
+
+.maintitle{
+    position: absolute;
+    font-family: "Truculenta", sans-serif;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    top:0;
 }
