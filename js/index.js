@@ -7,6 +7,7 @@ red = document.querySelector('.red')
 overlay = document.querySelector('.container')
 body = document.querySelector('body')
 links = document.querySelector('a')
+main_title = document.querySelector('.maintitle')
 
 load = 0
 smaller = 0;
@@ -50,7 +51,8 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        links.style.z-indez = 0;
+        maintitle.style.zIndex = 0;
+        links.style.zIndex = 0;
         body.style.overflow = "visible";
         loadText.style.width = (0) + "vw";
         loadText.style.height = (0) + "vh";
@@ -61,6 +63,8 @@ function smol() {
         clearInterval(int)
 
     }
+    maintitle.style.opacity= 0+smaller/100
+    links.style.opacity= 0+smaller/100
     overlay.style.opacity= 1-smaller/100
     red.style.opacity= 1-smaller/100
     loadText.style.opacity = 1 - smaller/100
