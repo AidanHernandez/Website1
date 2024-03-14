@@ -6,8 +6,6 @@ back = document.querySelector('.docimg')
 red = document.querySelector('.red')
 overlay = document.querySelector('.container')
 body = document.querySelector('body')
-links = document.querySelector('.links')
-
 
 load = 0
 smaller = 0;
@@ -62,7 +60,6 @@ function smol() {
         clearInterval(int)
 
     }
-    links.style.opacity = 1;
     overlay.style.opacity= 1-smaller/100
     red.style.opacity= 1-smaller/100
     loadText.style.opacity = 1 - smaller/100

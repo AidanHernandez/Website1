@@ -84,7 +84,9 @@ body{
     z-index:-9;
     opacity:1;
 }
-.links{
+
+a{
+
     display:flex;
     justify-content:center;
     align-items:center;
@@ -92,7 +94,8 @@ body{
     top:45vh;
     position:relative;
     color: black;
-    opacity:0;
+    opacity:1;
+    z-index:-100000;
 }
 
 .btn{
