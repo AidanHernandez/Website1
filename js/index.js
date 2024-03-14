@@ -1,5 +1,5 @@
 loadText = document.querySelector('.apple')
-apple = document.getElementById('appl')
+var apple = document.getElementById('appl')
 button=document.querySelector('.btn')
 title_text = document.querySelector('.container h1')
 back = document.querySelector('.docimg')
