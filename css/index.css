@@ -84,8 +84,7 @@ body{
     z-index:-9;
     opacity:1;
 }
-
-a{
+.links{
     display:flex;
     justify-content:center;
     align-items:center;
