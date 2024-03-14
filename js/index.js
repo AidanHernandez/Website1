@@ -6,6 +6,7 @@ back = document.querySelector('.docimg')
 red = document.querySelector('.red')
 overlay = document.querySelector('.container')
 body = document.querySelector('body')
+links = document.querySelector('a')
 
 load = 0
 smaller = 0;
@@ -49,7 +50,7 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-
+        links.style.z-indez = 0;
         body.style.overflow = "visible";
         loadText.style.width = (0) + "vw";
         loadText.style.height = (0) + "vh";
