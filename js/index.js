@@ -52,8 +52,6 @@ function smol() {
     smaller++
     if (smaller > 99){
         body.style.overflow = "visible";
-        red.style.display= none
-        loadText.style.display= none
         loadText.style.width = (0) + "vw";
         loadText.style.height = (0) + "vh";
         clearInterval(int)
