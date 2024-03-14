@@ -1,5 +1,5 @@
 loadText = document.querySelector('.apple')
-apple = getElementById('appl')
+apple = document.getElementById('appl')
 button=document.querySelector('.btn')
 title_text = document.querySelector('.container h1')
 back = document.querySelector('.docimg')
@@ -54,7 +54,7 @@ function smol() {
         body.style.overflow = "visible";
         red.style.display= none
         loadText.style.display= none
-        loadText.parentNode.removeChild(loadText);
+        appl.parentNode.removeChild(appl);
         clearInterval(int)
 
     }
