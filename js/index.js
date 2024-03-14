@@ -54,7 +54,8 @@ function smol() {
         body.style.overflow = "visible";
         red.style.display= none
         loadText.style.display= none
-        apple.parentNode.removeChild(apple);
+        loadText.style.width = (0) + "vw";
+        loadText.style.height = (0) + "vh";
         clearInterval(int)
 
     }
