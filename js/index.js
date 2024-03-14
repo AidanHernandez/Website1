@@ -51,8 +51,8 @@ function smol() {
     smaller++
     if (smaller > 99){
         body.style.overflow = "visible";
-        red.style.opacity= 0
-        loadText.style.opacity= 0
+        red.style.display= none
+        loadText.style.display= none
         clearInterval(int)
 
     }
