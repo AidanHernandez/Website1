@@ -88,7 +88,7 @@ a{
 }
 
 .btn{
-    background-image= url("images/ribbon.png");
+    background-image: url("images/ribbon.png");
     display:flex;
     color:green;
     position: absolute;
