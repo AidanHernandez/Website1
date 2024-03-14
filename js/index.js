@@ -4,6 +4,7 @@ title_text = document.querySelector('.container h1')
 back = document.querySelector('.docimg')
 red = document.querySelector('.red')
 overlay = document.querySelector('.container')
+body = document.querySelector('body')
 
 
 
@@ -49,7 +50,7 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-
+        body.style.overflow = "show";
         red.style.opacity= 0
         loadText.style.opacity= 0
         clearInterval(int)
