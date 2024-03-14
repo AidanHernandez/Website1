@@ -88,11 +88,16 @@ a{
 }
 
 .btn{
-    background-image: url("images/ribbon.png");
-    display:flex;
-    color:green;
-    position: absolute;
-    right:0;
+    margin:auto; /* Required */
+    position:absolute; /* Required */
+    bottom:0; /* Aligns at the bottom */
+    left:0;
+    right:0; /* Aligns horizontal center */
+    max-height:100%; /* images bigger than 175 px  */
+    max-width:100%;  /* will be shrinked to size */
+    width:80px;
+    height: 95px;
+    opacity: 0;
 }
 
 .ribbon{
