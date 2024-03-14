@@ -6,7 +6,7 @@ back = document.querySelector('.docimg')
 red = document.querySelector('.red')
 overlay = document.querySelector('.container')
 body = document.querySelector('body')
-links = document.querySelector('.a')
+links = document.querySelector('a')
 
 
 load = 0
