@@ -63,8 +63,6 @@ function smol() {
         clearInterval(int)
 
     }
-    maintitle.style.opacity= 0+smaller/100
-    links.style.opacity= 0+smaller/100
     overlay.style.opacity= 1-smaller/100
     red.style.opacity= 1-smaller/100
     loadText.style.opacity = 1 - smaller/100
