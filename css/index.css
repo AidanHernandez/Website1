@@ -93,7 +93,9 @@ body{
     transition: all 0.3s ease-in-out;
     opacity: 0;
 }
-
+.nav h1{
+    
+}
 .nav .container_links{
     display: flex;
     justify-content:space-between;
