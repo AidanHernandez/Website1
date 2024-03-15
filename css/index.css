@@ -94,7 +94,7 @@ body{
     opacity: 0;
 }
 .nav h1{
-    
+    align-items: center;
 }
 .nav .container_links{
     display: flex;
