@@ -8,12 +8,18 @@ overlay = document.querySelector('.container')
 body = document.querySelector('body')
 links = document.querySelector('a')
 nav = document.querySelector('.nav')
-
+help = document.getElementById('help')
 
 load = 0
 smaller = 0;
 sizex = 0
 sizey = 0
+
+help.addEventListener('click', () =>{
+    modal.classList.add('show-modal')
+})
+
+
 button.addEventListener('click', () =>{
     int = setInterval(blurring, 35)
 
