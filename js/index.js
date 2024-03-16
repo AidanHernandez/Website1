@@ -16,7 +16,7 @@ sizex = 0
 sizey = 0
 
 help.addEventListener('click', () =>{
-    modal.classList.add('show-modal')
+    help.classList.add('show-modal')
 })
 
 
