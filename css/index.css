@@ -173,9 +173,12 @@ body{
 button{
     cursor: url('images/apple_pointer.png'), auto;
 }
-
+.help{
+    opacity: 1;
+}
 
 .info.show-modal{
+    opacity:0;
     color:white;
     position:relative;
     margin: 15px 0;
