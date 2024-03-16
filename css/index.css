@@ -124,7 +124,7 @@ body{
     font-weight: bold;
 }
 .btn{
-    cursor: url('images/apple_pointer.png'), auto;
+    
     margin:auto; /* Required */
     position:absolute; /* Required */
     bottom:0; /* Aligns at the bottom */
@@ -169,4 +169,7 @@ body{
     text-decoration: none;
     display: inline-block;
     border-radius: 50px 50px 50px 50px;
+}
+button{
+    cursor: url('images/apple_pointer.png'), auto;
 }
