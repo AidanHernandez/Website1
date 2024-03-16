@@ -9,6 +9,7 @@ body = document.querySelector('body')
 links = document.querySelector('a')
 nav = document.querySelector('.nav')
 
+
 load = 0
 smaller = 0;
 sizex = 0
