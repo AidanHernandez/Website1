@@ -84,6 +84,7 @@ body
 }
 
 .nav a{
+    cursor: url('images/apple_pointer.png'), auto;
     color: #88eb88;
     text-decoration: none;
     padding: 7px 15px;
