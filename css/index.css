@@ -174,11 +174,13 @@ button{
     cursor: url('images/apple_pointer.png'), auto;
 }
 .help{
-    opacity: 1;
+    opacity: 0;
 }
-
-.info.show-modal{
+.info{
     opacity:0;
+}
+.info.show-modal{
+    opacity:1;
     color:white;
     position:relative;
     margin: 15px 0;

@@ -10,7 +10,7 @@ links = document.querySelector('a')
 nav = document.querySelector('.nav')
 help = document.getElementById('help')
 info = document.getElementById('info')
-infos = document.querySelector('.info')
+
 
 load = 0
 smaller = 0;
@@ -60,7 +60,6 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        infos.style.opacity=1;
         nav.style.opacity = 0 + smaller/100;
         links.style.zIndex = 0;
         body.style.overflow = "visible";
