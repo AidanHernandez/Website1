@@ -28,8 +28,8 @@ button.addEventListener('click', () =>{
 })
 
 window.addEventListener('click', (e) =>{
-    if(e.target == modal){
-        document.body.classList.remove('show-modal')
+    if(e.target == help){
+        help.classList.remove('show-modal')
     }
 })
 
