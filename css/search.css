@@ -68,6 +68,7 @@ body
     opacity: 1;
 }
 .nav h1{
+    color:green;
     text-align: center;
     position: relative;
     align-items: center;
@@ -83,7 +84,7 @@ body
 }
 
 .nav a{
-    color: white;
+    color: green;
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
