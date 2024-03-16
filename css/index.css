@@ -8,6 +8,7 @@
 }
 
 body{
+
     cursor: url('images/cursor.png'), auto;
     height:100vh;
     width:100vw;
@@ -117,7 +118,11 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
-
+.nav a.visited ,
+.nav a:hover{
+    color: rgb(192,57,43);
+    font-weight: bold;
+}
 .btn{
     margin:auto; /* Required */
     position:absolute; /* Required */
@@ -130,7 +135,7 @@ body{
     height: 95px;
     opacity: 0;
 }
-H
+
 .ribbon{
     cursor: url('images/apple_pointer.png'), auto;
     margin:auto; /* Required */

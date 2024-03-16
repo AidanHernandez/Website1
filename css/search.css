@@ -4,6 +4,7 @@
 
 body
 {
+    cursor: url('images/cursor.png'), auto;
     background-color: DarkSeaGreen;
     height: 100vh;
     display: flex;
@@ -89,4 +90,9 @@ body
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
+}
+.nav a.visited ,
+.nav a:hover{
+    color: rgb(192,57,43);
+    font-weight: bold;
 }

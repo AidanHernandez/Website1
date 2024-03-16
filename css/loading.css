@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
 
 body{
+    cursor: url('images/cursor.png'), auto;
     font-family: "Micro 5", sans-serif;
     color: white;
     height: 100vh;
@@ -57,4 +58,9 @@ body{
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
+}
+.nav a.visited ,
+.nav a:hover{
+    color: rgb(192,57,43);
+    font-weight: bold;
 }
