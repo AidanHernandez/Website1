@@ -84,7 +84,7 @@ body
 }
 
 .nav a{
-    color: green;
+    color: #88eb88;
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
