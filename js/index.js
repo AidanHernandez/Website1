@@ -7,7 +7,6 @@ red = document.querySelector('.red')
 overlay = document.querySelector('.container')
 body = document.querySelector('body')
 links = document.querySelector('a')
-main_title = document.querySelector('.maintitle')
 nav = document.querySelector('.nav')
 
 load = 0
@@ -53,7 +52,6 @@ function smol() {
     smaller++
     if (smaller > 99){
         nav.style.opacity = 0 + smaller/100
-        maintitle.style.zIndex = 0;
         links.style.zIndex = 0;
         body.style.overflow = "visible";
         loadText.style.width = (0) + "vw";
