@@ -65,7 +65,7 @@ body{
 }
 .nav{
     position: fixed;
-    background-color: #222;
+    background-color: rgba(0,0,0,0.5);
     top: 0;
     left:0;
     right: 0;
@@ -80,6 +80,7 @@ body{
     margin: auto;
 }
 .nav .container_links{
+    font-size: 15px;
     text-align: center;
     justify-content:space-between;
     top: 55vh;
