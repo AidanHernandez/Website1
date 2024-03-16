@@ -124,6 +124,7 @@ body{
     font-weight: bold;
 }
 .btn{
+    cursor: url('images/apple_pointer.png'), auto;
     margin:auto; /* Required */
     position:absolute; /* Required */
     bottom:0; /* Aligns at the bottom */
@@ -155,8 +156,10 @@ body{
     color: rgb(192,57,43);
     font-weight: bold;
 }
+
 .help{
-    background-color: #04AA6D;
+    cursor: url('images/apple_pointer.png'), auto;
+    background-color: rgb(192,57,43);;
     border:none;
     position: absolute;
     color: white;
