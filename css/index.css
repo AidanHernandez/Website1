@@ -101,6 +101,7 @@ body{
     margin: auto;
 }
 .nav .container_links{
+
     text-align: center;
     justify-content:space-between;
     top: 55vh;
@@ -109,6 +110,7 @@ body{
 }
 
 .nav a{
+    cursor: url('images/cursor.png'), auto;
     color: white;
     text-decoration: none;
     padding: 7px 15px;
