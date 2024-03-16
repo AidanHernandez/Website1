@@ -9,6 +9,7 @@ body = document.querySelector('body')
 links = document.querySelector('a')
 nav = document.querySelector('.nav')
 help = document.getElementById('help')
+info = document.getElementById('info')
 
 load = 0
 smaller = 0;
@@ -16,7 +17,7 @@ sizex = 0
 sizey = 0
 
 help.addEventListener('click', () =>{
-    help.classList.add('show-modal')
+    info.classList.add('show-modal')
 })
 
 

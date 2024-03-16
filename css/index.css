@@ -173,24 +173,19 @@ body{
 button{
     cursor: url('images/apple_pointer.png'), auto;
 }
-.help.show-modal{
-    display:block;
-    color:green;
-}
-.info{
-    position:absolute;
-    margin: 0;
-    border-bottom: 1px solid #304529;
-    text-align:center;
+
+
+.info.show-modal{
+    color:white;
+    position:relative;
+    margin: 15px 0;
     display:block;
     padding: 8px;
-    width:100%;
     justify-content:center;
     align-items:center;
     text-align:center;
-    top:100px;
+    top:200px;
     bottom:0;
-    left:0;
-    right:0;
+
     background-color:rgba(0,0,0,0.5)
 }
