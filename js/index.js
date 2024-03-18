@@ -8,8 +8,28 @@ overlay = document.querySelector('.container')
 body = document.querySelector('body')
 links = document.querySelector('a')
 nav = document.querySelector('.nav')
-help = document.getElementById('help')
-info = document.getElementById('info')
+open = document.getElementById('open')
+modal=document.getElementById('modal')
+close = document.getElementById('close')
+ani=document.querySelector('.ani')
+help=document.querySelector('.cta-btn')
+spon=document.querySelector('.sponsor')
+
+
+open.addEventListener('click', () =>{
+    modal.classList.add('show-modal')
+})
+
+close.addEventListener('click', ()=>{
+    modal.classList.remove('show-modal')
+})
+
+window.addEventListener('click', (e) =>{
+    if(e.target == modal){
+        modal.classList.remove('show-modal')
+    }
+})
+
 
 
 load = 0
@@ -17,9 +37,25 @@ smaller = 0;
 sizex = 0
 sizey = 0
 
-help.addEventListener('click', () =>{
-    info.classList.add('show-modal')
-})
+ani.addEventListener('click', () =>{
+        help.style.opacity=1;
+        nav.style.opacity =1;
+        back.style.opacity=0;
+        links.style.zIndex = 0;
+        body.style.overflow = "visible";
+        loadText.style.width = (0) + "vw";
+        loadText.style.height = (0) + "vh";
+        red.style.width = (0) + "vw";
+        red.style.height = (0) + "vh";
+        back.style.width = (0) + "vw";
+        back.style.height = (0) + "vh";
+        overlay.style.opacity= 0;
+        red.style.opacity= 0;
+        loadText.style.opacity = 0;
+        ani.style.width = (0) + "vw";
+        ani.style.height = (0) + "vh";
+        spon.style.opacity=1;
+    })
 
 
 button.addEventListener('click', () =>{
@@ -27,11 +63,7 @@ button.addEventListener('click', () =>{
 
 })
 
-window.addEventListener('click', (e) =>{
-    if(e.target == help){
-        help.classList.remove('show-modal')
-    }
-})
+
 
 function blurring() {
     load++
@@ -66,7 +98,8 @@ function smol() {
     smaller++
     smaller++
     if (smaller > 99){
-        help.style.opacity = 0 + smaller/100;
+        spon.style.opacity=0+ smaller/100;
+        help.style.opacity=0+ smaller/100;
         nav.style.opacity = 0 + smaller/100;
         links.style.zIndex = 0;
         body.style.overflow = "visible";

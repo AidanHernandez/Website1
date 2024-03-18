@@ -7,7 +7,6 @@
     </head>
 
     <body>
-
         <div class="container"> <h1>An apple a day keeps the doctor away</h1>
             <img src="css/images/red.png" class = "red"/>
             <img src="css/images/doctor.jpg" class="docimg"/>
@@ -27,24 +26,39 @@
         <a href = "navigation.html"target="_blank" >Navigation🍎</a>
             </div>
         </nav>
-
-
-        <!--Important stuff for actual wbesite i think-->
-        <button class="help" id="help"><i class="fa-solid fa-question"></i></button>
-        <button class="close-btn" id="close">
-            <i class="fa fa-times"></i>
-        </button>
-        <div class="info" id="info">
+        <button class="ani" id="ani">close</button>
+        <button class="cta-btn" id="open"><i class="fa-solid fa-question"></i></button>
+            <!--Modal-->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Help</h3>
+            </div>
+            <div class="modal-content">
+                <form class="modal-form">
+                    <div>
+                        <h3>Welcome click the links in the top bar to visit my other projects</h3>
+                    </div>
+                    <div>
+                        <h3>During opening animation click the top left corner to skip it</h3>
+                    </div>
+                    <div>
+                        <h3>Have fun</h3>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="sponsor">
         <div>
-            <h3>press any of the words in the bar to go to that website</h3>
+            <img src="css/images/hot.jpg" class = "hot"/>
         </div>
         <div>
-            <h3>To skip animation click the top left corner during animation</h3>
+            <p>Thanks for our wonderful sponsor HotTamales™ for making this website happen</p>
         </div>
-        <div>
-            <h3>Have fun</h3>
-        </div>
-
     </div>
     </body>
     <script src = "js/index.js"></script>

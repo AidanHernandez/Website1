@@ -157,40 +157,122 @@ body{
     font-weight: bold;
 }
 
-.help{
-    cursor: url('images/apple_pointer.png'), auto;
-    background-color: rgb(192,57,43);;
-    border:none;
-    position: absolute;
-    color: white;
-    top: 0;
-    right:0;
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50px 50px 50px 50px;
-}
+
 button{
     cursor: url('images/apple_pointer.png'), auto;
 }
-.help{
-    opacity: 0;
-}
-.info{
+.ani{
+    height:60px;
+    width:60px;
+    font-size: 20px;
+    top:0;
+    left:0;
+    position:absolute;
     opacity:0;
 }
-.info.show-modal{
-    opacity:1;
+.cta-btn
+{
+    opacity:0;
+    background-color:rgb(247, 92, 74);
+    border:none;
     color:white;
-    position:relative;
-    margin: 15px 0;
+    cursor: url('images/apple_pointer.png'), auto;
+    position: absolute;
+    top:0px;
+    right:0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
+.modal-container
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+.modal-container.show-modal{
     display:block;
-    padding: 8px;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    top:200px;
-    bottom:0;
+}
+.modal{
+    background-color:rgb(255, 130, 130);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:400px;
+    max-width:100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    animation-name:modalopen;
+    animation-duration:var(--modal-duration);
+}
 
-    background-color:rgba(0,0,0,0.5)
+@keyframes modalopen {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.modal-header{
+    background-color: rgb(78, 156, 72);
+    color:rgb(6, 64, 1);
+    padding: 15px;
+}
+.modal-header h3{
+    margin: 0;
+    border-bottom: 1px solid #304529;
+    text-align:center;
+}
+.modal-content{
+    padding:20px;
+}
+.modal-form div{
+    margin: 15px 0;
+}
+
+.modal-form label{
+    display:block;
+    margin-bottom: 5px;
+}
+
+.modal-form .form-input{
+    padding: 8px;
+    width:100%;
+}
+
+.close-btn{
+    cursor: url('images/apple_pointer.png'), auto;
+    color:rgb(6, 64, 1);
+    position:absolute;
+    top:0;
+    right:0;
+    border:none;
+    background: transparent;
+    font-size:25px;
+    cursor:pointer;
+
+
+}
+.sponsor{
+    opacity:0;  
+    font-size:10px;
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+.hot{
+    height:60px;
+    position:absolute;
+    right:0;
+    bottom:20px;
+    display:block;
 }
